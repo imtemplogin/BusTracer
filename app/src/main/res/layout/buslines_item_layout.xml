@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:padding="10dp"
+    android:paddingRight="0dp"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/img_rightBorder" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_listIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:textStyle="bold"
+        android:layout_alignTop="@id/img_listIcon"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/tv_linenumber"
+        android:layout_toLeftOf="@+id/img_listIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_listIcon"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/tv_stationsInLine" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_stationsInLine"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:id="@+id/tv_withCardPrice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_withCardPrice"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/tv_withoutCardPrice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_withoutCardPrice"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/tv_startTerminal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:layout_below="@id/tv_startTerminal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/tv_endTerminal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/img_rightBorder"
+        android:layout_below="@id/tv_endTerminal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/tv_busesBetweenTime" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text= "لیست ایستگاه ها"
+        android:id="@+id/btn_lineMoreInfo" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_linelist"
+            android:icon="@mipmap/ic_lines"
+            android:title="لیست خطوط شهری" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_path"
+            android:title="انتخاب مسیر" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_share"
+            android:title="به دیگران بگویید" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/ic_settings"
+            android:title="تنظیمات" />
+
+        <item
+            android:id="@+id/nav_comment"
+            android:icon="@mipmap/ic_message"
+            android:title="ارسال نظرات" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@mipmap/ic_aboutus"
+            android:title="درباره ما" />
+    </group>
+
+    <!--<item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="به دیگران بگویید" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="تنظیمات" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="درباره ما" />
+        </menu>
+    </item>-->
+
+</menu>
